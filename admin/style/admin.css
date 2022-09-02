@@ -1,0 +1,36 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#loginbtn, #regbtn, #signupbtn, #logbtn, #uploadbtn, #editans, #editsponsor, #editprize, #editwinner, #deletewinner, #saveans, #savesponsor, #saveprize, #savewinner, #deleteans, #deletesponsor, #deleteprize, #deleteprize, #uploadsportbtn, #uploadsponsorbtn, #uploadprizesbtn, #uploadwinnersbtn {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+.optionals {
+    border: 1px solid black;
+    border-radius:0 !important;
+    text-align: center;
+}
+.opt-heading, .pfooter {
+  color: #fff !important;
+  background-color: black !important;
+  padding: 10px;
+  font-size: 16px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
